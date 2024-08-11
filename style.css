@@ -1,0 +1,261 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter;
+}
+.coordonner__container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header__ul__contenair{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+}
+.barre__contenair{
+    padding: 0 10%;
+    margin-right: auto;
+    border-right: 1.5px solid black;
+
+}
+header ul li{
+    margin: 0 15%;
+    list-style: none;
+    padding: 0 5%;
+    display: inline-block;
+
+}
+.div__titre__contenair{
+    margin: 2% 5%;
+
+}
+.section__container{
+    
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-left: 5%;
+    line-height: 35.5px;
+    padding-right: 7%;
+    width: 40%;
+    display: flex;
+}
+.photo__nicol{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    top: 273px;
+    left: 20px;
+    opacity: 12px;
+    margin-left: 1%;
+   
+}
+.image__container{
+    padding: 15% 6%;
+    margin: 5% 15%;
+}
+
+.ic{
+    margin: 0 3%;
+    padding: 1%;
+    font-size: 1rem;
+    color: black;
+}
+.bas{
+    display: flex;
+    justify-content:space-between;
+    padding-right:9%;
+    margin:0% 5%
+}
+.grande_div__contenair{
+    padding-top: 30%;
+    text-align: left;
+    font-size: 18px;
+    padding-right:1%;
+    
+    
+}
+
+.div__centre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-decoration: none;
+    gap: 5%;
+   
+ }
+ .cercle__1{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #f1a605;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+    border: 1px;
+    
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ img{margin-left: 30%;}
+
+ .hello__contenair{
+    font-size: 1.5em;
+    font-weight: 900;
+    
+ }
+ .aide{
+    width: 150%;
+    font-size: 1,2rem;
+ }
+ .cercle__2{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #80D8DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+    border: 1px;
+ }
+ .cercle__3{
+
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(213, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+    border: 1px;
+
+ }
+ 
+ .cadre1{
+    margin:1% 12% 5% 10%;
+    
+ }
+.cadre{
+    margin:1% 12% 5% 10%;
+    padding-top: 3%;
+}
+.cv{
+    margin-bottom: 5%;
+}
+.Exp{
+    margin-bottom: 5%;
+}
+.fev{
+    display:flex !important;
+}
+.dev{
+    margin-top: 5% ;
+}
+.ligne{
+    size: 2 !important;
+}
+.devjs{
+    margin-top: 5%;
+    padding-top:10%;
+}
+.for{
+    display: flex;
+    height: 25%;
+}
+
+.pro{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}
+.ligne{
+    border-top: 2px;
+    width: 100%;
+    margin: 20px 0;
+}
+.la__ligne__du__bas{border-bottom-color: #262626;
+border-bottom-style:solid;
+border-bottom-width: 1px;}
+.pr_pho{
+    padding-right: 0;
+}
+.grand{
+    padding:0 18% 10% 15%
+}
+.form{
+    display: flex;
+
+
+}
+.section{padding:0 15% 10% 15%}
+
+
+@media screen and (max-width:425px) {
+    
+    .section__container {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       min-width: 1%;
+    }
+    .coordonner__container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10%;
+        
+    }
+    
+    .header__ul__contenair{
+        text-align: center;
+        justify-content: center;
+    }
+   
+    .image__container{
+        align-items: center;
+        padding-left: 120%;
+    }
+    
+
+    .bas{
+        flex-direction: column;
+        gap:25px;
+        text-align: center;
+    }
+    .hello__contenair{
+        padding-left: 50%;
+        padding-bottom: 5%;
+    }
+    .aide{
+        width:80%;
+        padding-left:45%;
+    }
+    .div__centre{
+        padding-left: 50%;
+        
+    }
+    .photo__nicol{
+        width:17rem;
+        padding-left: 4%;
+    }
+}
